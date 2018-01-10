@@ -1,0 +1,689 @@
+/* -----------------------------
+    Css Reset
+-------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main, video { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+.clearFix {
+    clear: both;
+}
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+body{
+    font-family: Ariel, Helvetica, sans-serif;
+    background-color: #EDDCDC;
+}
+
+
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*-------------------------------
+Head Section
+-------------------------------*/
+
+.containerHead {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+
+.liverpoolBanner {
+    /*position: relative;*/
+    border: 2px solid  #ED2323;
+    padding: 25px;
+    /*width: 50%;*/
+    height: 35px;
+    /*position: absolute;*/
+    /*top: 121px;*/
+    z-index: 10;
+    background-color: #ED2323;
+    cursor: pointer;
+    margin-top: 110px;
+
+}
+
+.liverpoolBanner h1{
+    font-family: Ariel, Helvetica, sans-serif;
+    color: ghostwhite;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: right;
+    padding-right: 120px;
+    text-shadow: .5px .5px #333;
+}
+
+
+.logo {
+    position: absolute;
+    top: -35px;
+    left: 6px;
+}
+
+/*.livLogo {
+    width: 175px;
+    height: 150px;
+}*/
+/*-------------------------------
+Main Section
+-------------------------------*/
+
+.sayingBanner {
+    background-color: #EDDCDC;
+}
+
+.sayingBanner p{
+    font-family: Ariel, Helvetica, sans-serif;
+    color: ghostwhite;
+    font-size: 90px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 32px;
+    text-shadow: 2px 2px #333;
+    cursor: pointer;
+}
+
+
+
+
+.nav {
+    margin-top: 75px;
+}
+
+nav ul{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ED2323;
+    padding: 10px;
+    margin-top: 21px;
+
+}
+
+nav a{
+    text-transform: capitalize;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    /*background-color: #ED2323;*/
+    color: #ffffff;
+}
+
+.mainTop {
+    margin-top: 50px;
+    width: 100%;
+    background-color: indianred;
+
+}
+
+.mainTopSquad {
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+
+.mainTopGallery {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.mainTopSquad h3{
+    /*border-bottom: 2px dotted #333333;*/
+    font-family:'Quicksand', Ariel, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    background-color: indianred;
+    /*text-shadow: .6px .6px #333;*/
+}
+
+
+.mainTop h3{
+    /*border-bottom: 2px dotted #333333;*/
+    font-family:'Quicksand', Ariel, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    /*text-shadow: .6px .6px #333;*/
+}
+
+
+
+.mainTopGallery h3{
+    /*border-bottom: 2px dotted #333333;*/
+    font-family:'Quicksand', Ariel, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    background-color: indianred;
+    /*text-shadow: .6px .6px #333;*/
+}
+
+
+.mainTop p {
+    color: #333333;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    word-spacing: 1.1px;
+    line-height: 20px;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    margin-top: 22px;
+    margin-right: 22px;
+    margin-left: 22px;
+    padding-bottom: 42px;
+    margin-bottom: -35px;
+}
+
+
+.picRight {
+    float: right;
+    margin-top: 30px;
+    margin-left: 18px;
+    margin-right: 25px;
+}
+
+
+
+
+
+/*-------------------------------
+Footer Section
+-------------------------------*/
+
+
+footer {
+    color: #333333;
+    font-weight: bold;
+    background-color: #ED2323;
+    padding: 30px 0 65px;
+    margin-top: 150px;
+}
+
+.exercise {
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px;
+}
+/*-------------------------------
+Gallery / Anfield Section
+-------------------------------*/
+
+
+.mainBox {
+    margin-top: 30px;
+    box-shadow: 2px 2px 10px #333;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 758px;
+
+}
+
+
+.thumbs{
+    position: relative;
+    top: 25px;
+    left: 50px;
+    margin-bottom: 25px;
+    z-index: 20;
+}
+
+.bigPics {
+    position: absolute;
+    top: 190px;
+    right: 84.5px;
+    opacity: 0;
+}
+
+.thumbs:hover + .bigPics{
+    opacity: 1;
+    z-index: 20;
+}
+
+
+/* 111.5
+#mainFrameDiv2{
+    background-image:();
+}*/
+
+
+
+
+
+
+
+
+
+/*-------------------------------
+Contact Section
+-------------------------------*/
+
+.contactSection {
+    float: left;
+    width: 535px;
+    margin-top: 35px;
+}
+
+
+.name_entry input {
+    width: 477px;
+    margin-top: 20px;
+}
+
+.name_entry input, textarea {
+    background-color: #ED2323;
+    border: solid 2px #333333;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 58px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.email_form input {
+    width: 476px;
+    margin-top: 20px;
+}
+
+.email_form input, textarea {
+    background-color: #ED2323;
+    border: solid 2px #333333;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 58px;
+    padding: 15px;
+}
+
+
+.message_form input {
+    margin-top: 20px;
+}
+
+
+.message_form input, textarea {
+    background-color: #ED2323;
+    border: solid 2px #333333;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: 58px;
+    width: 476px;
+    padding: 15px;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin: 60px;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+}
+
+
+.entryRight-content{
+    width: 300px;
+    float: right;
+    margin-top: 66px;
+}
+
+
+
+.entryRight-content address, .comment-content address {
+    display: block;
+    line-height: 1.714285714;
+    color: #333333;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------
+Squad Section
+-------------------------------*/
+
+/*.mainGallery {
+    width: 960px;
+    margin: 0 auto;
+}*/
+
+
+.squadContainerLeft {
+    float: left;
+    width: 330px;
+    background-color:#EDDCDC;
+    padding-top: 20px;
+}
+
+.squadContainerLeft h1{
+    padding: 7px;
+    border-bottom: 3px dotted #ED2323;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+.squadContainerRight {
+    float: right;
+    width: 630px;
+    background-color:#EDDCDC ;
+    padding-top: 20px;
+}
+
+.squadContainerRight h1{
+    padding: 7px;
+    border-bottom: 3px dotted #ED2323;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.galleryHolderLeft{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 50px 26px;
+}
+
+.galleryHolderLeft img {
+    margin-bottom: 20px;
+    box-shadow: 3px 5px 2px #333;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.picHolder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picHolder p {
+    color: #333333;
+    margin-left: 25px;
+    margin-top: 49px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: .4px;
+    word-spacing: 1.2px;
+    cursor: pointer;
+
+}
+
+.galleryHolderRight{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 50px 26px;
+
+}
+
+.galleryHolderRight img {
+    margin-bottom: 5px;
+    box-shadow: 3px 5px 2px #333;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.picHolderRight {
+    /*display: flex;
+    flex-wrap: wrap;*/
+    margin-bottom: 15px;
+}
+
+.picHolderRight p {
+    color: #333333;
+    margin-left: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: .4px;
+    word-spacing: 1.2px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+
+/*-------------------------------
+News Section
+-------------------------------*/
+
+
+.newsContainerLeft{
+    float: left;
+    background-color:#EDDCDC;
+    width: 235px;
+}
+
+.newsContainerLeft h1{
+    padding: 7px;
+    border: 3px solid #ED2323;
+    background-color: #ED2323;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5px;
+    margin-top: 11px;
+}
+
+.newsContainerLeft p{
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    /*padding: 5px;*/
+    margin-top: -1px;
+    margin-left: 7px;
+    margin-right: 10px;
+}
+
+
+
+.newsContainerRight{
+    float: right;
+    background-color:#EDDCDC;
+    width: 650px;
+    padding-top: 6px;
+
+
+}
+
+
+.newsContainerRight h1{
+    padding: 4px;
+    border: 3px solid #ED2323;
+    background-color: #ED2323;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;;
+    text-align: center;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+
+.newsContainerRight p{
+    color: #333;
+    font-size: 15px;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    padding: 5px;
+    letter-spacing: .5px;
+    word-spacing: 1.1px;
+    line-height: 20px;
+}
+
+
+.newsContainerRightBottom{
+    margin-top: 52px;
+    margin-right: 1px;
+    width: 650px;
+    float: right;
+}
+
+
+.newsContainerRightBottom h1{
+    padding: 4px;
+    border: 3px solid #ED2323;
+    background-color: #ED2323;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+
+.fixtureList{
+    padding: 15px;
+
+}
+
+.livList{
+    border: 1px solid #ED2323;
+    background-color: #ED2323;
+    color: #ffffff ;
+    /*border-collapse: collapse;*/
+    text-align: left;
+    width: 640px;
+    margin-left: -10px;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+}
+
+.livList th, td{
+    padding: 12px;
+    font-family: 'Quicksand', Ariel, Helvetica, sans-serif;
+}
+
+
+
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+https://coolors.co/ed2323-cecece-a6a6a8-272635-b1e5f2*/
